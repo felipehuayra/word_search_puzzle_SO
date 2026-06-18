@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caça-palavras — Sistemas Operacionais</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Tela Inicial ── -->
+  <div id="screen-start" class="screen active">
+    <div class="start-icon">🔍</div>
+    <h1>Caça<span>Palavras</span></h1>
+    <p>Encontre as 15 palavras de Sistemas Operacionais escondidas</p>
+    <div class="tag-list">
+      <span class="tag">SWAP</span>
+      <span class="tag">POLLING</span>
+      <span class="tag">MEMÓRIA</span>
+      <span class="tag">PAGINAÇÃO</span>
+      <span class="tag">PROCESSO</span>
+      <span class="tag">BARRAMENTO</span>
+      <span class="tag">BUFFER</span>
+      <span class="tag">DRIVER</span>
+      <span class="tag">FIRMWARE</span>
+      <span class="tag">PERIFÉRICO</span>
+      <span class="tag">CHIPSET</span>
+      <span class="tag">SOFTWARE</span>
+      <span class="tag">REDE</span>
+      <span class="tag">HARDWARE</span>
+      <span class="tag">DISPOSITIVO</span>
+    </div>
+    <button id="btn-play">▶ Play</button>
+  </div>
+
+  <!-- ── Tela do Jogo ── -->
+  <div id="screen-game" class="screen">
+    <div class="game-header">
+      <h2>Encontre as palavras</h2>
+      <span id="found-count">0 / 15 encontradas</span>
+    </div>
+
+    <div id="word-list"></div>
+
+    <div id="grid-wrap">
+      <div id="grid"></div>
+    </div>
+
+    <div id="msg-area"></div>
+
+    <div id="finish-banner">
+      🎉 Parabéns! Você encontrou todas as palavras!
+      <button id="btn-restart">Jogar de novo</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
