@@ -3,10 +3,10 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --blue-light: #dbeafe;
-  --blue-mid:   #93c5fd;
-  --blue-main:  #3b82f6;
-  --blue-dark:  #1d4ed8;
+  --blue-light: #fee2e2;
+  --blue-mid:   #fca5a5;
+  --blue-main:  #ef4444;
+  --blue-dark:  #b91c1c;
   --yellow-light: #fef9c3;
   --yellow-mid:   #fde047;
   --green-light: #dcfce7;
